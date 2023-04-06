@@ -1,0 +1,144 @@
+
+
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image:linear-gradient(to bottom,hsl(273, 75%, 66%),  hsl(240, 73%, 65%));
+    font-family: 'Kumbh Sans',sans-serif;
+     display: flex;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+     box-sizing: border-box;
+
+}
+.container{
+    display: flex;
+   justify-content: space-around;
+    background-image: url('images/bg-pattern-desktop.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:700px;
+    border-radius: 25px;
+    background-color: white;
+    padding-top:50px;  
+    padding-bottom: 50px;
+    padding-right: 20px;
+      position: relative;
+
+    
+}
+.question{
+    width:400px;
+    margin-left: 263px;
+}
+.cord{
+    display: flex;
+    justify-content: space-between;
+}
+.cord img{
+    width:10px;
+    height:10px;
+    /* padding-top:5px; */
+}
+
+#img2{
+    position: absolute;
+    top:60px;
+    left:-20px;
+    width: 35%;
+
+
+}
+#img1{
+    position: absolute;
+    left:-120px;
+    top:130px;
+    z-index: 3;
+}
+.questions:hover{
+   
+    color:hsl(14, 88%, 65%) ;
+    cursor: pointer;
+    font-weight: bold;
+    
+    
+}
+
+.questions{
+    border-bottom: 1px solid hsl(240, 5%, 91%) ;
+    padding: 15px;
+}
+
+h1{
+    text-align: left;
+    font-weight: 700;
+}
+.answer{
+    display:none;
+}
+.show{
+    display: block;
+}
+p{
+    padding:7px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.attribution{
+    margin-top: 98vh;
+    text-align: start;
+
+    
+}
+
+
+@media (max-width:900px){
+    .container{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        position: relative;
+        margin-top: 300px;
+        height: 70%;
+    }
+  
+#img2{
+    position: absolute;
+    top:-170px;
+    left:30px;
+    width:80%
+   
+
+
+}
+#img1{
+    position: absolute;
+    top:-68px;
+    left:0px;
+    width: 30%;
+    z-index: 3;
+}
+
+.question{
+    margin-top: 100px;
+    padding:10px;
+    margin-left: 30px;
+
+}
+h1{
+    text-align: center;
+}
+main{
+    margin-bottom: 20vh;
+    height:auto;
+}
+.attribution{
+    display: none;
+}
+
+}
